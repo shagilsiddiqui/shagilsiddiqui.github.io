@@ -1,0 +1,121 @@
+.navbar{
+		font-weight: 400;
+		font-size: 15px;
+		background: #1b3754;
+		margin: 0px;
+		position: sticky;
+	}
+	.navbar .navbar-nav>li>a
+	{
+		color: white;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+	
+	
+		footer {
+ background: #3a6186;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#footer_container {
+	position: static;
+  max-width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  
+  padding-bottom: 5%;
+}
+.social {
+  list-style: none;
+}
+.social li a {
+  font-size: 30px;
+  display: inline-block;
+  float: right;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.copyright_text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  padding-top: 2%;
+  float: left;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.65em;
+  color: white;
+}
+
+.slide{
+	max-width: 100%;
+    height: 700px;
+	background:url("https://blog.xoxoday.com/wp-content/uploads/2017/06/Untitled-design-31.png");
+	background-repeat: no-repeat;
+	position: relative;
+	background-position:center;
+		background-size: cover;
+	
+	animation-name: slide;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+	z-index: 0;
+}
+@keyframes slide{
+	16.6% {
+		background: url("cricket.jpg");
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: cover;
+		position: relative;
+		
+
+
+	}
+	33.3%
+	{background: url("badminton.jpg");
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: cover;
+		position: relative;
+		
+
+	}
+	49.8% {
+		background: url("musafir.jpg");
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: cover;
+		position: relative;
+		animation-delay: 2s;
+	}
+	66.4% {
+		background: url("music1.jpg");
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: cover;
+		background-position:center;
+		background-size: cover;
+		position: relative;
+	}
+	83% {
+		background: url("Movies.jpg");
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: cover;
+		position: relative;
+	}
+	100% {
+		background: url("bike1.jpg");
+		background-repeat: no-repeat;
+		background-position:center;
+		background-size: cover;
+		position: relative;
+
+	}
+}

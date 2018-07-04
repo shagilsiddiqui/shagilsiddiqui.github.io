@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CV</title>
-  <link rel="icon" href="Logo.png">
+	<title>contact page</title>
+	<link rel="icon" href="images.png">
 	<link rel="stylesheet" type="text/css" href="bootstrap.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
 	<style type="text/css">
-		body{
-			background-size: cover;
-			background-color: rgba(23,23,35,76,0.6);
-		}
-		iframe{
-			width: 100%;
-			height: 700px;
-			background-size: cover;
-			background-repeat: no-repeat;
-	position: relative;
-	background-position:center;
-		background-size: cover;
-		}
-					.navbar{
+	body{
+	background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+	}
+	.jumbotron{
+		font-family: 'Galada', cursive;
+
+	}
+							.navbar{
 		font-weight: 400;
 		font-size: 15px;
 		background: #1b3754;
@@ -31,6 +30,72 @@
 		color: white;
 		font-family: 'Josefin Sans', sans-serif;
 	}
+	#icon{
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+	.container{
+		background: #D3959B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BFE6BA, #D3959B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BFE6BA, #D3959B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	}
+	.contain{
+		margin: 10%;
+		color: white;
+		font-size: 20px;
+		width: 200px;
+		height: 150px;
+		padding-top: -10%;
+
+
+	}
+	.contain ul{
+		padding-bottom: 30px;
+	}
+	.contain ul li {
+		display: inline-block;
+		list-style: none;
+		color: white;
+
+	}
+	.contain ul li a{
+		font-size: 30px;
+		margin: 10px;
+		 color: white;
+	}
+	.contain h4{
+		font-size: 38px;
+
+	}
+	.ico{
+		color: white;
+		margin-left: 38%;
+		margin-bottom: 10%;
+		letter-spacing: 0.2;
+		padding-bottom: 5%;
+		height: 200px;
+	}
+	.ico p{
+		letter-spacing: 0.2;
+		font-size: 50px;
+		margin: 0 20px;
+
+	}
+	.social {
+  list-style: none;
+}
+.social li a {
+  font-size: 60px;
+  display: inline-block;
+  float: left;
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 0 10px;
+}
 	footer {
  background: #3a6186;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
@@ -45,10 +110,10 @@ background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, F
   
   padding-bottom: 5%;
 }
-.social {
+.soc {
   list-style: none;
 }
-.social li a {
+.soc li a {
   font-size: 30px;
   display: inline-block;
   float: right;
@@ -70,11 +135,11 @@ background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, F
   color: white;
 }
 
-	</style>
 	
+	</style>
 </head>
 <body>
-	<nav class="navbar navbar-default pink">
+<nav class="navbar navbar-default pink">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -98,19 +163,42 @@ background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, F
        	<li><a href="https://shagilsiddiqui.github.io/lab.html">Hobby</a></li>
     			
     			
-    	<li><a href="#"> Contact me </li></a>
+    	<li><a href="https://shagilsiddiqui.github.io/contactpage.html"> Contact me </li></a>
         </ul>
     </div>
     </div>
   </div>
 </nav>
-
-	<iframe src="my_resume.pdf" width="100%" height="100%"></iframe>
+<div class="container">
+  <div class="jumbotron">
+    <h1><img id="icon" src="logo.jpg"> Contact me</h1> 
+  </div> 
+</div>
+<div class="contain">
+	<h4>Email:</h4>
+	<ul>
+		<li><a href="#"><i class="far fa-envelope"></i></a></li>
+		<li>shagil.aryan@gmail.com</li>
+	</ul>
+	<h4 > Contact no.</h4>
+	<ul >
+		<li><a href="#"><i class="fas fa-phone"></i></a></li>
+			<li> +91-9955763261</li>
+		</ul>
+</div>
+<div class="ico">
+		 <ul class="social">
+		 	<p>Join me on</p>
+    <li><a href="https://www.facebook.com/shagil.siddiqui.3/about?lst=100002543873541%3A100002543873541%3A1530543722"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/shagil-ahmad-360861143/"><i class="fab fa-linkedin-in"></i></i></a></li>
+				<li><a href="https://www.instagram.com/shagilsiddiqui/"><i class="fab fa-instagram"></i></a></li>
+			</ul>
+		</div>
 		<footer>
   <div id="footer_container">
       <p class="copyright_text">&copy; copyright 2018 siddiqui CO.<br>
     designed and developed by shagil siddiqui.</p>
-        <ul class="social">
+        <ul class="soc">
     <li><a href="https://www.facebook.com/shagil.siddiqui.3/about?lst=100002543873541%3A100002543873541%3A1530543722"><i class="fab fa-facebook-square" aria-hidden="true"></i></a></li>
 				<li><a href="https://www.linkedin.com/in/shagil-ahmad-360861143/"><i class="fab fa-linkedin-in"></i></i></a></li>
 				<li><a href="https://www.instagram.com/shagilsiddiqui/"><i class="fab fa-instagram"></i></a></li>
@@ -120,10 +208,9 @@ background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, F
     </ul>
   </div>
 </footer>
-<script src="https://code.jquery.com/jquery-3.3.1.js"
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 </body>
-</html>
+</html
