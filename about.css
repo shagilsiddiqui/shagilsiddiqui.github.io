@@ -1,7 +1,7 @@
         #myVideo {
     position: absolute;
     right: 0;
-    bottom: -110px;
+    bottom: -100px;
     min-width: 100%; 
     min-height: 100%;
 }
