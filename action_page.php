@@ -13,7 +13,6 @@ $email_body= "firstname:$First_name \n"
 			 "country:$country \n";
 
 $header= "From:$email_from \r\n";
-$header= "Reply-To:$visitor_email \r\n";
 mail($to, $Subject, $email_body, $header);
 header("Location: contact.html");
 ?>
