@@ -1,4 +1,4 @@
-<?php
+<?PHP
 $to = "shagil.aryan@gmail.com";
 $Subject = "Email from my website";
 $First_name = $_POST['firstname'];
